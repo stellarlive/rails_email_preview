@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'cuprite', '>= 0.10'
   s.add_development_dependency 'rspec-rails', '>= 3.8.0'
   s.add_development_dependency 'puma', '>= 3.12.0'
+  s.add_development_dependency "rspec_junit_formatter"
 
   s.version = RailsEmailPreview::VERSION
 end
